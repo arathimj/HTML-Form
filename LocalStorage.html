@@ -1,0 +1,59 @@
+<html>
+<head><center>Form</center></head>
+<body>
+<link rel="stylesheet" href="LocalStorage.css">
+<script type="text/javascript" src="LocalStorage.js"></script>
+<center>
+<form id="ContactForm1" method="POST">
+<table id="1">
+	<tr>
+	<td><label for="name">Name</label></td>
+	<td><input type="text" placeholder="Name" id="name"></td>
+	</tr>
+	<tr>
+	<td><label for="email">Email</label></td>
+	<td><input type="email" placeholder="Email" id="email"></td>
+	</tr>
+	<tr>
+	<td><label for="dob">Date of Birth</label></td>
+	<td><input type="date" placeholder="dd/mm/yyyy" id="date" ></td>
+	</tr>
+	<tr>
+	<td><label for="phn">Phone Number</label></td>
+	<td><input type="tel" placeholder="eg.9876543210" id="phoneno"></td>
+	</tr>
+	<tr>
+	<td><label for="depno">Number of dependents</label></td>
+	<td><input type="number" placeholder="eg.3" id="depno"></td>
+	</tr>
+</table>
+<input type="button" name="submit" value="Login" onclick="submitform()">
+</form>
+<br><br><br>
+<form>
+<table id="2">
+	<tr>
+	<td id="nametab"></td>
+	<td id=printname></td>
+	</tr>
+	<tr>
+	<td id=emailtab></td>
+	<td id="printemail"></td>
+	</tr>
+	<tr>
+	<td id=dobtab></td>
+	<td id="printdob"></td>
+	</tr>
+	<tr>
+	<td id=phntab></td>
+	<td id="printphn"></td>
+	</tr>
+	<tr>
+	<td id=depnotab></td>
+	<td id="printdepno"></td>
+	</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
